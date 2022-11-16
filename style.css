@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(139, 196, 222), rgb(27, 166, 184));
+}
+
+.container {
+    display: block;
+    position: relative;
+    float: inline-start;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: rgb(17, 5, 120);
+    font-weight: bold;
+}
+
+h4 {
+    float: right;
+    margin-right: 20px;
+    margin-top: -25px;
+    color: rgb(14, 5, 120);
+}
+
+h3 {
+    margin-left: 40px;
+    margin-top: 60px;
+    color: rgb(16, 22, 120);
+}
+
+.first {
+    border: 3px;
+    border-color: aqua;
+    display: grid;
+}
+
+.first .inside {
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: 80px 80px 80px 80px;
+    row-gap: 40px;
+    gap: 5rem;
+    margin-top: 30px;
+    border: url(grey);
+    border-radius: 5px;
+    box-shadow: 15px;
+    justify-content: center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.icons {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.last {
+    display: flex;
+    gap: 2rem;
+}
+
+.atlast {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    justify-content: space-around;
+    gap: 40px;
+    left: 0px;
+}
+
+.phone {
+    display: block;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.tool-icon {
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.phone-icon {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: block;
+}
+
+.last {
+    background-color: rgb(227, 227, 227);
+    height: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 10px;
+    margin-bottom: 10px;
+}
+
+.atlast {
+    height: 100px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    /*    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.second {
+    background-color: rgb(227, 227, 227);
+    border-radius: 8px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inside {
+    background-color: rgb(227, 227, 227);
+    border-radius: 8px;
+    height: 450px;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* .inside:hover {
+    box-shadow: black, gray;
+    box-shadow: 100px;
+    background: rgb(111, 171, 7);
+} */
