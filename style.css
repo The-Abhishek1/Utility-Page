@@ -50,7 +50,7 @@ h3 {
     gap: 5rem;
     margin-top: 30px;
     border: url(grey);
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 15px;
     justify-content: center;
 }
@@ -78,11 +78,10 @@ a {
     gap: 40px;
     left: 0px;
 }
-
-.phone {
-    display: block;
-    margin-left: 0px;
-    margin-top: 10px;
+.phone-icon{
+display:block;
+margin-left:50px;
+margin-top:20px;
 }
 
 .tool-icon {
@@ -116,9 +115,6 @@ a {
     margin-right: 20px;
     margin-top: 25px;
     margin-bottom: 20px;
-    /*    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px; */
 }
 
 .second {
@@ -133,15 +129,14 @@ a {
 .inside {
     background-color: rgb(227, 227, 227);
     border-radius: 8px;
-    height: 450px;
+    height: 300px;
     margin-top: 90px;
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
-/* .inside:hover {
-    box-shadow: black, gray;
-    box-shadow: 100px;
-    background: rgb(111, 171, 7);
-} */
+.inside #a-icons{
+margin-top:-80px;
+}
+.phone{
+margin-top:20px;
+}
